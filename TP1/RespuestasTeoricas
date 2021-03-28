@@ -1,0 +1,75 @@
+1) Un objeto en php es una forma ordenada de agrupar datos
+(los atributos) y operaciones a utilizar sobre esos datos (los metodos),
+hay tipos de objetos que se ven definidos por los atributos y metodos en particular.
+
+-Una clase es la definicion que se le da al objeto en base de los atributos
+y los metodos del mismo.
+
+-Un atributo define las caracteristicas de la clase.
+
+2)Si son lo mismo, ambas definiciones significan lo mismo, tiene las mismas caracteristicas 
+y comportamientos.
+
+3)<b>C</b> Clases
+<b>A</b> Atributos
+<b>M</b> Metodos
+
+*Mouse (C)
+*Televisor (C)
+*darCanalActual (M)
+*configurarDespertador (M)
+*Reloj (C)
+*Mover (M)
+*fechaNacimiento (A)
+*encender (M)
+*persona (C)
+*darHoraActual (M)
+*irCanalTv (M)
+*fechaNacimiento (A)
+*inalambrico (A)
+*ponerHora (M)
+*documento (A)
+*darPosicionActual (M)
+
+4) Objeto: Celular
+Atributos: Marca, Pantalla entrada/salida, puerto C entrada/salida, audio salida, 
+microfono de entrada.
+Accinoes: Apagar la alarma, mirar la pantalla, responder mensajes, ponerlo a carga,
+escuchar musica, mandar audios.
+
+Objeto: Cocina
+Atributos: Termo cupla 4 hornallas, horno, color negro, marca
+Acciones: Calentar "x objeto de cocina".
+
+Objeto: Termo
+Atributos: Tapa, marca, color
+Acciones: mantener caliente el contenido.
+
+Objeto: Mate
+Atributos: es de vidrio, tamanio mediano, con tres pies de sosten.
+Acciones: cargar agua y yerba, azucar(opcional) xD
+
+Objeto: Lavaropas
+Atributos: No centrifuga, capacidad 5k, marca
+Acciones: Lavar ropa
+
+Objeto: Secaropa
+Atributos: marca, centrifuga, max 5k
+Acciones: Secar ropa
+
+5) Clase Persona:
+Atributos: tipoDNI, nombre, apellido, fecha de nacimiento.
+Metodo: Identificar una persona.
+
+6)Los metodos que debemos encontrar implementados en una clase son los get y set de los
+atributos de la clase y su metodo _constructor e __toString
+
+7) Para poder ver los valores de los atributos de nuestra clase, y conocer su informacion,
+tambien nos sirve para verificar que los datos fueron cargados con exito.
+
+8) Se denomina el _constructor, y cre intancias de una clase, en php se lo nombra como:
+public function __construct(...){..}
+
+9) $this: interactua con una propiedad dentro de la clase.
+
+
